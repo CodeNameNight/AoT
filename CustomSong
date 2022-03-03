@@ -1,1 +1,114 @@
-play
+use_synth :piano
+use_bpm 250
+a = 1
+a = a + 0.25
+
+horn = "C:/Users/henry_avila/Downloads/yt5s.com - Siren (sound effect) (128 kbps).wav"
+with_fx :echo do
+  sample horn
+end
+
+define :mikeman do
+  with_fx :compressor do
+    2.times do
+      play :c5
+      sleep 1
+      play :f4
+      sleep 1
+      play :f4
+      sleep 1
+    end
+  end
+end
+
+define :swooshith do
+  with_fx :echo do
+    3.times do
+      sample :ambi_swoosh, amp: a
+      sleep 4
+      sample :ambi_swoosh, amp: a
+      sleep 4
+      sample :ambi_swoosh, amp: a
+      a = a + 1
+    end
+  end
+end
+
+define :mikemurderer do
+  with_fx :compressor do
+    2.times do
+      play :c5
+      sleep 1
+      play :f4
+      sleep 1
+    end
+  end
+end
+
+
+#START OF SONG
+#piano
+live_loop :mike_man do
+  mikeman
+end
+
+sleep 8
+
+live_loop :mike_murderer do
+  mikemurderer
+end
+
+sleep 8
+
+sample horn
+
+
+live_loop :drumith do
+  sample :drum_heavy_kick
+  sleep 4
+  sample :drum_heavy_kick
+  sleep 4
+  sample :drum_heavy_kick
+  sleep 4
+end
+
+sleep 16
+
+live_loop :snarith do
+  1.times do
+    sample :drum_snare_soft
+    sleep 4
+    sample :drum_snare_soft
+    sleep 4
+    sample :drum_snare_soft
+  end
+  stop
+end
+
+
+sleep 12
+
+live_loop :swoosh do
+  1.times do
+    swooshith
+  end
+end
+
+
+sleep 16
+
+live_loop :haunting do
+  1.times do
+    sample :ambi_haunted_hum
+    sleep 4
+    sample :ambi_haunted_hum
+    sleep 4
+    sample :ambi_haunted_hum
+    sleep 4
+  end
+  stop
+end
+
+sleep 0.5
+
+
