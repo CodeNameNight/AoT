@@ -4,31 +4,27 @@ use_synth :saw
 
 live_loop :main_theme do
   with_fx :distortion do
-    define :two_notes do |n1,n2|
-  play n1
-  sleep 0.5
-  play n2
-  sleep 0.5
+    define :four_notes do |n1,n2|
+    play n1
+    sleep 0.5
+    play n2
+    sleep 0.5
+    play n3
+    sleep 0.5
+    play n4
+    sleep 0.5
 end
     #second octave
-    two_notes :c2, :e2 
-    two_notes :g2, :b2
-    two_notes :c3, :b2 
-    two-notes :g2, :e2
+    four_notes :c2, :e2, :g2, :b2
+    four_notes :c3, :b2, :g2, :e2  
     #third octave
-    two_notes :c3, :e3
-    two_notes :g3, :b3
-    two_notes :c4, :b3
-    two_notes :g3, :e3
+    four_notes :c3, :e3, :g3, :b3
+    four_notes :c4, :b3, :g3, :e3
     #fourth octave
-    two_notes :c4, :e4
-    two_notes :g4, :b4
-    two_notes :c5, :b4
-    two-notes :g4. :e4
+    four_notes :c4, :e4, :g4, :b4
+    four_notes :c5, :b4, :g4, :e4
     #fifth octave
-    two_notes :c5, :e5
-    two_notes :g5, :b5
-    two_notes :c6, :b5
-    two_notes :g5, :e5
+    four_notes :c5, :e5, :g5, :b5
+    four_notes :c6, :b5, :g5, :e5
   end
 end
