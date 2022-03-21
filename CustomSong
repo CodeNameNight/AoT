@@ -4,19 +4,21 @@ a = 1
 a = a + 0.25
 
 horn = "C:/Users/henry_avila/Downloads/yt5s.com - Siren (sound effect) (128 kbps).wav"
-with_fx :echo do
-  sample horn
+
+#paraterised
+define :three_notes do |n1,n2,n3|
+  play n1
+  sleep 1
+  play n2
+  sleep 2
+  play n3
+  sleep 1
 end
 
 define :mikeman do
   with_fx :compressor do
     2.times do
-      play :c5
-      sleep 1
-      play :f4
-      sleep 1
-      play :f4
-      sleep 1
+      three_notes :c5, :f4, :f4
     end
   end
 end
@@ -47,6 +49,10 @@ end
 
 
 #START OF SONG
+with_fx :echo do
+  sample horn
+end
+
 #piano
 live_loop :mike_man do
   mikeman
@@ -59,8 +65,6 @@ live_loop :mike_murderer do
 end
 
 sleep 8
-
-sample horn
 
 
 live_loop :drumith do
@@ -81,6 +85,7 @@ live_loop :snarith do
     sample :drum_snare_soft
     sleep 4
     sample :drum_snare_soft
+    sleep 4
   end
   stop
 end
@@ -93,7 +98,6 @@ live_loop :swoosh do
     swooshith
   end
 end
-
 
 sleep 16
 
@@ -108,7 +112,3 @@ live_loop :haunting do
   end
   stop
 end
-
-sleep 0.5
-
-
