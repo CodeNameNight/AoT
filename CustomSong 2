@@ -1,0 +1,110 @@
+use_synth :piano
+use_bpm 150
+
+live_loop :bottom_notes do
+  #m1
+  play :ab3
+  play :c4
+  play :eb4
+  play :ab4
+  sleep 1
+  sleep 3
+  #m2
+  play :g3
+  play :c4
+  play :eb4
+  sleep 1
+  sleep 3
+  #m3
+  play :f3
+  play :ab3
+  play :c4
+  play :eb4
+  sleep 1
+  sleep 3
+  #m4
+  sleep 1
+  play :g3
+  play :bb3
+  play :d4
+  sleep 1
+  sleep 2
+  #m5
+  play :ab3
+  play :c4
+  play :eb4
+  play :ab4
+  sleep 4
+  #m6
+  play :g3
+  play :c4
+  play :eb4
+  sleep 1
+  sleep 3
+  #m7
+  play :f3
+  play :ab3
+  play :c4
+  play :eb4
+  sleep 1
+  sleep 3
+  
+  sleep 1
+  play :g3
+  play :bb3
+  play :d3
+  sleep 1
+  sleep 0.5
+  play :g3
+  play :bb3
+  play :d4
+  sleep 0.5
+  sleep 1
+end
+=begin
+play :a3
+play :d
+play :f
+play :a
+play :b4
+play :g5
+sleep 1
+play :e5
+sleep 1
+play :g
+play :d
+play :f
+play :a
+play :b4
+sleep 0.3
+play :g5
+sleep 0.5
+play :e5
+sleep 0.5
+play :f5
+sleep 1
+play :f5
+play :a3
+play :d
+play :f
+play :e5
+sleep 0.25
+play :g5
+sleep 0.5
+play :e5
+sleep 0.25
+play :f5
+sleep 0.5
+play :e5
+sleep 0.25
+play :f5
+sleep 0.5
+play :e5
+sleep 0.25
+play :g5
+sleep 0.25
+play :g
+play :b
+play :d
+sleep 0.25
+=end
