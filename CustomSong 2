@@ -1,6 +1,50 @@
 use_synth :piano
 use_bpm 150
 
+a = 2
+a2 = 3
+
+buff= "C:/Users/henry_avila/Downloads/its time (18s) - Bruce Buffer It's Time!!! cut (128 kbps).wav"
+titan= "C:/Users/henry_avila/Downloads/erens roar (6s)- Erens Titan Roar Dub Sound Effect (128 kbps).wav"
+xxx= "C:/Users/henry_avila/Downloads/sad vocals (2.48) - XXXTENTACION - SAD! (Acapella_Vocals Only) (128 kbps).wav"
+erwin = "C:/Users/henry_avila/Downloads/erwins speech (1.13s) - BADASS SPEECH - ERWIN SMITH [DUB] (128 kbps).wav"
+
+#transition to second song
+live_loop :snarith_2nd do
+  6.times do
+    sample :drum_snare_soft
+    sleep 3.3
+    sample :drum_snare_soft
+    sleep 3.3
+  end
+  stop
+end
+
+live_loop :drumith_2nd do
+  6.times do
+    sample :drum_heavy_kick
+    sleep 3.3
+    sample :drum_heavy_kick
+    sleep 3.3
+  end
+  stop
+end
+
+with_fx :echo do
+  sample buff, amp: a
+end
+
+sleep 40
+
+with_fx :echo do
+  sample titan, amp: a
+end
+
+sleep 19
+
+#start of 2nd song
+
+sample xxx, amp: a
 
 #m1
 play :ab3
@@ -48,7 +92,7 @@ play :c4
 play :eb4
 sleep 1
 sleep 3
-
+#m8
 sleep 1
 play :g3
 play :bb3
@@ -60,7 +104,6 @@ play :bb3
 play :d4
 sleep 0.5
 sleep 1
-
 #m9
 play :ab3
 play :d
@@ -70,7 +113,7 @@ play :bb4
 play :g5
 sleep 2
 play :eb5
-sleep 1
+sleep 2
 #m10
 play :g
 play :d
@@ -92,7 +135,7 @@ play :f
 play :eb5
 sleep 0.5
 play :g5
-sleep 1.5
+sleep 0.5
 play :eb5
 sleep 0.5
 play :f5
@@ -100,16 +143,16 @@ sleep 1
 play :eb5
 sleep 0.5
 play :f5
-sleep 1
+sleep 0.5
 #m12
 play :eb5
 sleep 0.5
 play :g5
-sleep 0.25
+sleep 0.5
 play :g
 play :bb
 play :d
-sleep 0.25
+sleep 0.5
 play :eb5
 sleep 0.5
 play :f5
@@ -117,7 +160,7 @@ sleep 1
 play :eb5
 sleep 0.5
 play :f5
-sleep 1
+sleep 0.5
 #m13
 play :g5
 play :ab3
@@ -135,7 +178,7 @@ play :bb4
 play :c4
 sleep 0.5
 play :g5
-sleep 1
+sleep 0.5
 play :f5
 sleep 1
 play :f5
@@ -148,7 +191,7 @@ play :c4
 play :eb4
 sleep 0.5
 play :g5
-sleep 1.5
+sleep 0.5
 play :eb5
 sleep 0.5
 play :f5
@@ -181,11 +224,11 @@ play :eb6
 sleep 1
 play :c6
 play :e5
-sleep 1
+sleep 0.5
 play :eb4
 play :c4
 play :ab
-sleep 1
+sleep 0.5
 play :g5
 play :c5
 play :c5
@@ -198,7 +241,7 @@ sleep 0.5
 play :g5
 sleep 0.5
 play :f5
-sleep 1
+sleep 0.5
 #m18
 play :g5
 sleep 0.5
@@ -219,3 +262,53 @@ play :c4
 play :ab
 sleep 1
 #m19
+play :eb6
+play :g5
+play :d5
+play :f2
+sleep 0.5
+play :d6
+sleep 0.5
+play :c6
+play :eb5
+sleep 0.5
+play :ab3
+play :c4
+play :eb4
+sleep 0.5
+play :g5
+play :c5
+play :eb4
+sleep 0.5
+play :f5
+sleep 0.5
+play :g5
+sleep 0.5
+play :f5
+sleep 0.5
+#m20
+play :g5
+play :f2
+sleep 0.5
+play :f5
+sleep 0.5
+play :g5
+play :g2
+sleep 0.5
+play :f5
+sleep 0.5
+play :g5
+play :b4
+sleep 1
+play :g
+play :bb
+play :d
+play :f
+sleep 1
+#m21
+play :e6
+play :g5
+play :e5
+play :a3
+play :a2
+
