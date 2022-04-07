@@ -215,6 +215,8 @@ play :f5
 sleep 1
 play :e5
 sleep 1
+
+#PLAYS TWICE>>>>>>>>>>>
 #m17
 play :ab3
 play :ab2
@@ -311,4 +313,504 @@ play :g5
 play :e5
 play :a3
 play :a2
+sleep 1
+play :eb5
+play :eb 
+sleep 0.5
+play :ab 
+play :c4 
+play :eb
+sleep 0.5
+play :ab 
+play :c4 
+play :eb
+play :c5 
+play :c5
+play :g5 
+sleep 0.5
+play :f5 
+sleep 0.5
+play :g5
+sleep 0.5
+play :f5 
+sleep 0.5
+#m22
+play :g5
+sleep 0.5
+play :f5
+sleep 0.5
+play :g5 
+play :ab 
+play :c4 
+play :eb
+sleep 1
+play :g5
+play :ab2
+play :ab4
+play :c5
+sleep 1
+play :ab 
+play :c4 
+play :eb
+sleep 1
+#m23
+play :eb5
+play :eb
+sleep 0.5
+play :bb
+play :bb4
+sleep 0.5
+play :eb5
+play :ab 
+play :c4 
+play :eb
+sleep 0.5
+play :f5
+play :bb4
+play :eb
+sleep 1
+play :eb5
+sleep 1
+play :fb3
+play :ab3
+play :c4
+sleep 0.5
+#m24
+play :eb5
+play :eb
+sleep 0.5
+play :bb
+play :bb4
+sleep 0.5
+play :ab
+play :c4
+sleep 0.5
+play :eb5
+sleep 0.5
+play :f5
+play :bb4
+play :g2
+sleep 0.5
+play :eb5
+play :g3
+play :bb3
+play :d
+play :f
+sleep 1
+#PLAYS TWICE>>>>>>>>
+#m25
+play :ab2
+sleep 0.5
+play :eb3
+sleep 0.5
+play :ab3
+play :g5
+play :c5
+play :ab4
+sleep 0.5
+play :c4
+sleep 0.5
+play :g5
+play :ab4
+play :c5
+play :eb 
+sleep 1
+play :eb5
+sleep 1
+#m26
+play :c4
+play :ab
+sleep 1
+play :g5
+play :c4
+sleep 1
+play :f5
+play :c5
+sleep 1
+play :eb5
+play :c4
+sleep 1
+#m27
+play :c5
+play :f2
+sleep 0.5
+play :c3
+sleep 0.5
+play :f3
+play :ab4
+play :g5
+sleep 0.5
+play :ab3
+sleep 0.5
+play :c4
+play :ab4
+play :g5
+sleep 0.5
+play :f3
+sleep 0.5
+play :g5
+play :ab4
+sleep 0.5
+play :ab3
+sleep 0.5
+#m28
+play :ab
+play :ab4
+play :c4
+sleep 0.5 
+play :eb
+sleep 0.5
+play :g5
+play :ab4
+play :f3
+sleep 0.5 
+play :ab3 
+sleep 0.5
+play :f5 
+play :ab4 
+play :c4
+sleep 1
+play :eb5 
+play :ab4 
+sleep 1
+#m29
+play :c5 
+play :ab2 
+sleep 0.5
+play :eb3
+sleep 0.5
+play :ab3
+play :g5
+play :ab4
+sleep 0.5
+play :c4
+sleep 0.5 
+play :g5
+play :ab4
+play :eb
+sleep 1
+play :g5 
+play :ab4 
+sleep 0.5
+play :c4
+sleep 0.5
+#m30
+play :ab
+play :ab4 
+sleep 1
+play :g5
+play :ab4
+play :ab3
+sleep 1
+play :f5
+play :ab4 
+play :g3
+sleep 1
+play :eb5
+play :ab4 
+play :f3
+sleep 1
+#m31
+play :eb5
+play :f2
+sleep 0.5
+play :c3
+sleep 0.5
+play :g5
+play :ab4 
+play :f3
+sleep 0.5
+play :ab3 
+sleep 0.5
+play :c4
+play :g5 
+play :ab4
+sleep 1
+play :bb
+play :ab4 
+sleep 0.5 
+play :f3
+sleep 0.5 
+#m32
+play :ab 
+play :ab4 
+play :ab3 
+sleep 0.5
+play :c4
+sleep 0.5 
+play :g5 
+play :ab4 
+play :f
+sleep 1
+play :f5
+play :ab4
+play :f3 
+sleep 1
+play :eb5
+play :ab4 
+play :c4
+sleep 1
+#m33
+play :eb5
+play :ab4
+play :ab2
+sleep 0.5
+play :eb3 
+sleep 0.5
+play :g5
+play :ab4
+play :ab3
+play :c5
+sleep 0.5 
+play :c4
+sleep 0.5 
+play :g5
+play :c5
+play :ab4
+sleep 1.5
+play :f5
+play :ab4
+sleep 0.5
+#m34
+play :f5
+play :ab4
+sleep 1
+play :g5 
+play :c5
+play :ab4
+sleep 1
+play :ab4
+play :g5
+play :c5
+sleep 1.5
+play :f5
+play :ab4
+sleep 0.5
+#m35
+play :f5
+play :ab4
+play :f2
+sleep 0.5
+play :c3 
+sleep 0.5 
+play :g5 
+play :c5 
+play :ab4 
+play :f3 
+sleep 0.5 
+play :ab3 
+sleep 0.5
+play :g5 
+play :ab4 
+play :c5 
+play :c4 
+sleep 1
+play :eb5 
+play :ab4 
+sleep 1
+#m36
+play :ab
+play :ab4
+sleep 1
+play :g5
+play :ab4
+sleep 0.5
+play :c4
+sleep 0.5
+play :f5
+play :ab4
+play :eb
+sleep 1
+play :eb5
+play :ab4
+play :f3
+sleep 1
+#m37
+play :eb5
+play :ab4 
+play :ab2
+sleep 0.5 
+play :eb3
+sleep 0.5 
+play :ab3
+play :g5
+play :c5
+play :ab4
+sleep 0.5
+play :c4
+sleep 0.5 
+play :g5
+play :c5
+play :ab4
+play :eb
+sleep 1.5
+play :f5
+play :ab4
+sleep 0.5
+#m38
+play :eb5
+play :ab4 
+play :ab2
+sleep 0.5 
+play :eb3
+sleep 0.5 
+play :ab3
+play :g5
+play :c5
+play :ab4
+sleep 0.5
+play :c4
+sleep 0.5 
+play :g5
+play :c5
+play :ab4
+play :eb
+sleep 1.5
+play :f5
+play :ab4
+sleep 0.5
+#m39
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
