@@ -8,8 +8,6 @@ a3 = a - 0.25
 buff= "H:/Downloads/its-time-_18s_-Bruce-Buffer-It_s-Time___-cut-_128-kbps_.wav"
 titan= "H:/Downloads/erens-roar-_6s_-Erens-Titan-Roar-Dub-Sound-Effect-_128-kbps__1.wav"
 xxx= "H:/Downloads/xxx-audio.wav"
-erwin = "H:/Downloads/erwins-speech-_1.13s_-BADASS-SPEECH-ERWIN-SMITH-_DUB_-_128-kbps_.wav"
-
 
 define :three_notes do |n1,n2,n3|
   play n1
