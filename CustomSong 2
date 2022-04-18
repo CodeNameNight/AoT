@@ -5,9 +5,9 @@ a = 2.5
 a2 = 3
 a3 = a - 0.25
 
-buff= "H:/Downloads/its-time-_18s_-Bruce-Buffer-It_s-Time___-cut-_128-kbps_.wav"
-titan= "H:/Downloads/erens-roar-_6s_-Erens-Titan-Roar-Dub-Sound-Effect-_128-kbps__1.wav"
-xxx= "H:/Downloads/xxx-audio.wav"
+buff= "C:/Users/henry_avila/Downloads/its-time-_18s_-Bruce-Buffer-It_s-Time___-cut-_128-kbps_-_1__1.wav"
+titan= "C:/Users/henry_avila/Downloads/erens-roar-_6s_-Erens-Titan-Roar-Dub-Sound-Effect-_128-kbps_-_1_.wav"
+xxx= "C:/Users/henry_avila/Downloads/xxx-audio.wav"
 
 define :three_notes do |n1,n2,n3|
   play n1
@@ -176,7 +176,6 @@ one_note :d, :eb5, :f5
 sleep 1
 one_note :eb5, :f5, :g5
 #m13
-
 play :ab3
 play :c4
 play :eb4
@@ -219,17 +218,37 @@ live_loop :main_beat do
     #m17
     five_1 :ab3, :ab2, :eb5, :g5, :eb6
     play :c6
-    no_sleep :eb5, :eb4, :c4, :ab, :g5,:c5, :c5
+    play :eb5
+    sleep 0.5
+    play :eb4
+    play :c4
+    play :ab
+    sleep 0.5
+    play :g5
+    play :c5
+    play :c5
     play :eb4
     play :c4
     play :ab
     play three_mini :f5, :g5, :f5
     #m18
     one_note :g5, :f5, :g5
-    three_1 :eb4, :c4, :ab, :g5, :c5, :a4
+    play :eb4
+    play :c4
+    play :ab
+    sleep 1
+    play :g5
+    play :c5
+    play :a4
     play :a2
     sleep 1
-    three_1 :eb4, :c4, :ab, :eb6, :g5, :d5
+    play :eb4
+    play :c4
+    play :ab
+    sleep 1
+    play :eb6
+    play :g5
+    play :d5
     #m19
     
     one_note :f2, :d6, :c6
@@ -272,7 +291,13 @@ live_loop :main_beat do
     play three_mini :f5, :g5, :f5
     #m22
     one_note :g5, :f5, :g5
-    three_1 :ab, :c4, :eb, :g5, :ab2, :ab4
+    play :ab
+    play :c4
+    play :eb
+    sleep 1
+    play :g5
+    play :ab2
+    play :ab4
     play :c5
     sleep 1
     play :ab
